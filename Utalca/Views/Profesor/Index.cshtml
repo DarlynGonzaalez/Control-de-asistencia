@@ -7,11 +7,22 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Profesores</h2>
 
-<ul class="list-group">
+
+<ul class="nav nav-pills nav-stacked">
     @foreach (var profesor in Model)
     {
-       <li class="list-group-item">@profesor.Nombre</li>
+        <li>
+           <a href="@Url.Action("Detalles", "Profesor", new {id=@profesor.ID})">
+               <font color="black">@profesor.Nombre f</font>
+           </a>
+           
+        </li>
+
+
     }
+  
+   
 </ul>
+

@@ -11,27 +11,26 @@ namespace Utalca.Controllers
     {
         // GET: Profesor
         public ActionResult Index()
+        {                 
+            return View(obtenerProfesores());
+        }
+        public List<ControlAsistencia.Participante> obtenerProfesores()
         {
             var servicio = new ControlAsistencia.ControlAsistenciaClient();
             var cursos = servicio.Cursos();
             List<ControlAsistencia.Participante> profesores = new List<ControlAsistencia.Participante>();
-             foreach (var varCursos in cursos)
+            foreach (var varCursos in cursos)
             {
                 var profesCurso = varCursos.Profesores;
-
-
-                foreach (var profeCurso  in profesCurso)
+                foreach (var profeCurso in profesCurso)
                 {
-                    if (agregarProfesor(profeCurso,profesores))
+                    if (agregarProfesor(profeCurso, profesores))
                     {
                         profesores.Add(profeCurso);
-                    }                  
-                
+                    }
                 }
-    
             }
-           
-            return View(profesores);
+             return profesores;
         }
 
         public Boolean agregarProfesor(ControlAsistencia.Participante profesor,List<ControlAsistencia.Participante> profesores)
@@ -40,31 +39,29 @@ namespace Utalca.Controllers
             {
                 if (profeCurso.Nombre==profesor.Nombre)
                 {
-                    return false;
-                }
-                else {
-                    return true; }
-
+                    return false;}
+                else{ return true; }
             }
 
             return true;
         }
 
+
+
+
         public ActionResult Detalles(long id)
         {
-            var profesor = Servicio.DatosProfesor.Profesores().FirstOrDefault(m => m.ID == id);
-            if(profesor != null)
+            foreach (var profesor in obtenerProfesores())
             {
-                if(profesor.ID % 2 == 0)
-                    return View("DetallesPicante", profesor);
-                else
-                    return View("DetallesPulento", profesor);
-            }
-            else
-            {
-                return RedirectToAction("Index", "Home");
-            }
-        }
+                if (profesor.ID==id)
+                {
+                    return View("Detalles", profesor);
+                }
+           }
+            return RedirectToAction("Index", "Home");
+         }
+
+      
 
         public ActionResult Crear()
         {
