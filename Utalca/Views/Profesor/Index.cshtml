@@ -1,4 +1,8 @@
-﻿@model List<Utalca.Models.Profesor>
+﻿
+@model IList<Utalca.ControlAsistencia.Participante>
+
+    
+
 @{
     ViewBag.Title = "Index";
 }
@@ -8,6 +12,6 @@
 <ul class="list-group">
     @foreach (var profesor in Model)
     {
-        <li class="list-group-item"><a href="@Url.Action("Detalles", "Profesor", new { id = profesor.ID })">@profesor.Nombre</a></li>
+       <li class="list-group-item">@profesor.Nombre</li>
     }
 </ul>

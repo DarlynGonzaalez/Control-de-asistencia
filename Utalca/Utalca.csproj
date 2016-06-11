@@ -181,6 +181,7 @@
     </Content>
     <Content Include="Views\Curso\index.cshtml" />
     <Content Include="Views\Curso\Detalles.cshtml" />
+    <Content Include="Views\Profesor\Index2.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

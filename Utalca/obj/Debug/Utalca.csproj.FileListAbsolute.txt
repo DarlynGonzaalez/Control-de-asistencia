@@ -121,3 +121,44 @@ C:\Users\Darlyn\Desktop\1° Semestre 2016\Tecnologias Web\Ejemplo Clase\Utalca\U
 C:\Users\Darlyn\Desktop\1° Semestre 2016\Tecnologias Web\Ejemplo Clase\Utalca\Utalca\obj\Debug\Utalca.csprojResolveAssemblyReference.cache
 C:\Users\Darlyn\Desktop\1° Semestre 2016\Tecnologias Web\Ejemplo Clase\Utalca\Utalca\obj\Debug\Utalca.dll
 C:\Users\Darlyn\Desktop\1° Semestre 2016\Tecnologias Web\Ejemplo Clase\Utalca\Utalca\obj\Debug\Utalca.pdb
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\csc.exe
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\vbc.exe
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\VBCSCompiler.exe
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\Utalca.dll.config
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\Utalca.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\Utalca.pdb
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\Newtonsoft.Json.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Net.Http.Formatting.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Helpers.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Http.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Http.WebHost.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Mvc.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Razor.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Webpages.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Webpages.Razor.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Razor.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Webpages.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Webpages.Razor.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Helpers.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Mvc.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\Newtonsoft.Json.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Net.Http.Formatting.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Http.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\bin\System.Web.Http.WebHost.xml
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\obj\Debug\Utalca.csprojResolveAssemblyReference.cache
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\obj\Debug\Utalca.dll
+C:\Users\Darlyn\Desktop\Control Asistencia\Utalca\obj\Debug\Utalca.pdb
