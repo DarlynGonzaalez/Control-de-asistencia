@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0d9aa0a3-dde6-4776-9a56-9041b8f4ce0c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://test.ingenieriautalca.cl/ControlAsistencia/ControlAsistencia.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ControlAsistencia.wsdl" MetadataType="Wsdl" ID="beb74cc9-613f-4c50-a174-07b8b60923dc" SourceId="1" SourceUrl="http://test.ingenieriautalca.cl/ControlAsistencia/ControlAsistencia.svc?wsdl" />
+    <MetadataFile FileName="ControlAsistencia.disco" MetadataType="Disco" ID="2d2d96d6-e217-434f-a772-d87482eeca3e" SourceId="1" SourceUrl="http://test.ingenieriautalca.cl/ControlAsistencia/ControlAsistencia.svc?disco" />
+    <MetadataFile FileName="ControlAsistencia.xsd" MetadataType="Schema" ID="090a31d5-4d54-4b63-b730-0679290a8e4b" SourceId="1" SourceUrl="http://test.ingenieriautalca.cl/ControlAsistencia/ControlAsistencia.svc?xsd=xsd0" />
+    <MetadataFile FileName="ControlAsistencia1.xsd" MetadataType="Schema" ID="50dac1dd-bd3d-41ca-9a66-d76ede37a9fd" SourceId="1" SourceUrl="http://test.ingenieriautalca.cl/ControlAsistencia/ControlAsistencia.svc?xsd=xsd2" />
+    <MetadataFile FileName="ControlAsistencia2.xsd" MetadataType="Schema" ID="7f88f67c-9e59-486b-9af9-a9143b0bd213" SourceId="1" SourceUrl="http://test.ingenieriautalca.cl/ControlAsistencia/ControlAsistencia.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

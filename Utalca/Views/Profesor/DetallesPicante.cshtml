@@ -1,0 +1,17 @@
+﻿@model Utalca.Models.Profesor
+@{
+    ViewBag.Title = "Detalles";
+}
+
+<h2>@Model.Nombre    @Model.Apellido</h2>
+
+<p>
+    @Model.FechaNacimiento.ToString("dd-MM-yyyy")<br />
+    @Model.SitioWeb<br />
+    @Model.Biografia
+</p>
+
+<p>
+    <a class="btn btn-lg btn-primary" href="@Url.Action("Index", "Profesor")">Volver a profesores</a>
+</p>
+

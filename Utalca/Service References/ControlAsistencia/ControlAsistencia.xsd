@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://test.ingenieriautalca.cl/ControlAsistencia/ControlAsistencia.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ControlAsistencia" />
+  <xs:element name="Cursos">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CursosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ControlAsistencia" minOccurs="0" name="CursosResult" nillable="true" type="q1:ArrayOfCurso" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Curso">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CursoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ControlAsistencia" minOccurs="0" name="CursoResult" nillable="true" type="q2:Curso" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CursosPorProfesor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idProfesor" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CursosPorProfesorResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ControlAsistencia" minOccurs="0" name="CursosPorProfesorResult" nillable="true" type="q3:ArrayOfCurso" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegistrarAsistencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idParticipante" type="xs:long" />
+        <xs:element minOccurs="0" name="idCurso" type="xs:long" />
+        <xs:element minOccurs="0" name="fechaClase" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegistrarAsistenciaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegistrarAsistenciaResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

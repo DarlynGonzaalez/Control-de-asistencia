@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Utalca.ControlAsistencia.Curso>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Creditos)
+            
+        </th> 
+        <th>
+            @Html.DisplayNameFor(model => model.Seccion)
+        </th>
+      
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <a href="@Url.Action("Detalles", "Curso", new { id = item.ID })">@Html.DisplayFor(modelItem => item.Nombre)</a>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Creditos)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.Seccion)
+        </td>
+     
+       
+    </tr>
+}
+
+</table>

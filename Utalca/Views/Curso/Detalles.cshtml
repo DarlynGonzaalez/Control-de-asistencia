@@ -1,0 +1,64 @@
+﻿@model Utalca.ControlAsistencia.Curso
+@{
+    ViewBag.Title = "Detalles";
+}
+
+
+
+<div class="jumbotron">
+    <h2>@Model.Nombre</h2><br />
+
+     
+    <p>
+        <h4>Ayudante</h4>
+        @foreach (var ayudantes in Model.Ayudantes)
+        {
+            <h6>@ayudantes.Nombre</h6><br />
+        }
+    </p>
+       
+    <div>
+    <h4>Alumnos</h4> 
+    <table class="table">
+   
+        @foreach (var alumnos in Model.Alumnos)
+        {
+            <tr>
+               <th><h5>@alumnos.Nombre </h5></th>
+            </tr>
+
+        } 
+    </table>
+    <h4>Horario</h4>
+         
+    <table class="table">
+    
+        <tr>
+            <th><h4>Titulo </h4></th>
+            <th><h4>Tipo </h4></th>
+            <th><h4>Fecha </h4></th>
+            <th><h4>Sala </h4></th>
+            <th><h4>Presentes </h4></th>
+        </tr>
+        @foreach (var horario in Model.Horario)
+        {
+            <tr>
+                <th><h5>@horario.Titulo  </h5></th>
+                <th><h5>@horario.Tipo</h5></th>
+                <th><h5>@horario.Fecha </h5></th>
+                <th><h5>@horario.Sala </h5></th>
+                <th><h5>Ver presentes</h5></th>
+                
+                
+            </tr>
+
+        } 
+    </table> 
+
+          
+
+</div>
+
+   
+   
+</div>

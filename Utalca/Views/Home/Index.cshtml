@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <ul id="profesores">
+
+
+    </ul>
+
+</p>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: "/api/ProfesorApi",
+            dataType: "json",
+            success: function (val) {
+                for (i = 0; i < val.length; i++)
+                {
+                    $("#profesores").append("<li>" +val[i].Nombre + "</li>");
+                }
+                console.log(val);
+            }
+            
+        });
+    });
+</script>
