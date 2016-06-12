@@ -17,6 +17,7 @@ namespace Utalca.Controllers
         public List<ControlAsistencia.Participante> obtenerProfesores()
         {
             var servicio = new ControlAsistencia.ControlAsistenciaClient();
+            
             var cursos = servicio.Cursos();
             List<ControlAsistencia.Participante> profesores = new List<ControlAsistencia.Participante>();
             foreach (var varCursos in cursos)
@@ -46,22 +47,11 @@ namespace Utalca.Controllers
             return true;
         }
 
-
-
-
         public ActionResult Detalles(long id)
         {
-            foreach (var profesor in obtenerProfesores())
-            {
-                if (profesor.ID==id)
-                {
-                    return View("Detalles", profesor);
-                }
-           }
-            return RedirectToAction("Index", "Home");
-         }
-
-      
+            var servicio = new ControlAsistencia.ControlAsistenciaClient();
+            return View("Detalles", servicio.CursosPorProfesor(id));
+        }      
 
         public ActionResult Crear()
         {

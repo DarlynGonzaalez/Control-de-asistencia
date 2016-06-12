@@ -106,14 +106,22 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Style.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="fonts\fontImage\icomoon.svg" />
+    <Content Include="fonts\fontImage\style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\fontImage\icomoon.eot" />
+    <Content Include="fonts\fontImage\icomoon.ttf" />
+    <Content Include="fonts\fontImage\icomoon.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.slides.js" />
+    <Content Include="Scripts\jquery.slides.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <None Include="Service References\ControlAsistencia\ControlAsistencia.disco" />
     <None Include="Service References\ControlAsistencia\configuration91.svcinfo" />
@@ -125,9 +133,7 @@
     <Content Include="Web.config" />
     <Content Include="Views\Shared\_Menu.cshtml" />
     <Content Include="Views\Profesor\Index.cshtml" />
-    <Content Include="Views\Profesor\DetallesPicante.cshtml" />
-    <Content Include="Views\Profesor\DetallesPulento.cshtml" />
-    <Content Include="Views\Profesor\Crear.cshtml" />
+    <Content Include="Views\Profesor\Detalles.cshtml" />
     <Content Include="Views\Shared\_Errores.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -181,7 +187,6 @@
     </Content>
     <Content Include="Views\Curso\index.cshtml" />
     <Content Include="Views\Curso\Detalles.cshtml" />
-    <Content Include="Views\Profesor\Index2.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -3,30 +3,35 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Index";
 }
+<head>
+    <link rel="stylesheet" href="~/Content/Style.css" />
+    <link rel="stylesheet" href="~/fonts/fontImage/style.css" />
+</head>
+<body style="background-color:black;">
 
-<h2>Index</h2>
+    <div class="main">
+        <div class="slides">
+            <img src="http://blog.coverall.com/wp-content/uploads/2014/06/checklist-shutterstock_156086177.jpg"/>
+            <img src="http://blogs.upc.edu.pe/sites/default/files/upc/blogs/lista_blogs/epe/blog_post/2015/enero/checklist.jpg" />
+         </div>
+    </div>
 
-<p>
-    <ul id="profesores">
-
-
-    </ul>
-
-</p>
-
+</body>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="~/Scripts/jquery.slides.js"></script>
 <script>
-    $(document).ready(function () {
-        $.ajax({
-            url: "/api/ProfesorApi",
-            dataType: "json",
-            success: function (val) {
-                for (i = 0; i < val.length; i++)
-                {
-                    $("#profesores").append("<li>" +val[i].Nombre + "</li>");
-                }
-                console.log(val);
-            }
-            
+    $(function () {
+        $(".slides").slidesjs({
+            play: {
+                active: true,
+                effect: "slide",
+                interval: 3000,
+                auto: true,
+                swap: true,
+                pauseOnHover: false,
+                restartDelay: 2500
+           }
         });
     });
+
 </script>
